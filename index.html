@@ -14,14 +14,14 @@
 </head>
 <body>
 
-  <section class="contact pad-t-2 bad-b-2">
-    <div class="max-length content">
+  <section class="max-length island">
+    <div>
       <h1 class="pad-t push">Want to go to Mars?</h1>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
 
     <fieldset>
-      <legend class="italic">Personal details</legend>
+      <legend class="italic giga push-1-2">Personal details</legend>
       <form class="push-0 grid" method="post" action="https://formspree.io/mart1003@algonquinlive.com">
         <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
           <label for="name">Name</label>
@@ -44,7 +44,7 @@
             <option>A little couch-potato-y</option>
           </select>
         </div>
-        <div class="push unit">
+        <div class="push unit xs-1">
           <label for="address">Address</label>
           <textarea id="address" name="address"></textarea>
         </div>
@@ -52,15 +52,15 @@
     </fieldset>
 
     <fieldset>
-      <legend class="italic">Mission statement</legend>
+      <legend class="italic giga push-1-2">Mission statement</legend>
       <form class="push-0 grid" method="POST" action="https://formspree.io/mart1003@algonquinlive.com">
-        <div class="push unit">
-          <label for="details">Why do you want to go to Mars?</label>
-          <textarea id="details" name="details"></textarea>
+        <div class="push unit xs-1">
+          <label for="comment">Why do you want to go to Mars?</label>
+          <textarea id="comment" name="comment"></textarea>
         </div>
         <div class="unit">
-          <input type="hidden" name="_next" value="//site.io/thanks.html">Request to join the mission.
           <button class="btn" type="submit">Register for the trip!</button>
+          <input type="hidden" name="subject" value="Request to join the mission">
         </div>
       </form>
     </fieldset>

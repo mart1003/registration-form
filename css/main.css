@@ -1,28 +1,33 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   font-family: "Open Sans", sans-serif;
+}
+
+body {
   background-color: #f2f2f2;
 }
 
-.content {
+fieldset {
+  padding: 0;
+}
+
+.max-legnth {
   background-color: #fff;
-  padding: 1em;
-  line-height: 1.5em;
 }
 
 h1 {
-  border-bottom: .5px #000 solid;
+  border-bottom: 1px #000 solid;
 }
 
-@media only screen and (min-width: 60em){
+input,
+select,
+textarea {
+  background-color: #f2f2f2;
+}
 
-  input,
-  select, {
-    display: inline-block;
+@media only screen and (min-width: 60em) {
+
+  .grid:nth-child(3), .grid:first-child {
+    padding-right: 1rem;
   }
+
 }
